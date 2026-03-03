@@ -1,0 +1,16 @@
+.git
+.gitignore
+node_modules
+**/node_modules
+**/.next
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.venv
+**/venv
+**/.env
+**/.env.local
+**/.env.*
+!services/api/.env.example
+!services/api/.env.docker.example
+!apps/web/.env.local.example
